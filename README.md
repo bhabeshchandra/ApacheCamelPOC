@@ -9,3 +9,6 @@ Url:
 } 
 
 5: 
+Camel has two ways to do things in parallel:
+multicast().parallelProcessing() → sends to all endpoints concurrently (multi-threaded).
+parallelProcessing(false) (default) → calls them sequentially (one by one).
